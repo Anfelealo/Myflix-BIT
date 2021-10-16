@@ -50,19 +50,15 @@
                 </div>
             </div>
         </div>
-    
 
-
-            
-        
         <div class="row">
             <div class="col" id="movies-list">
                 <div id="movies-list-movie-container">
                     <div class="movies-list-movie-container-grid">
-                        <div class="row movies-list-rows justify-content">
+                        <div class="row movies-list-rows justify-content" id="cards-list">
                             <div class="col-2 movies-list-movie-container-form-card movies-list-cols">
                                 <div class="movies-list-movie-container-reco">
-                                    <i class="fas fa-plus-circle" id="addNewImg"></i>
+                                    <i class="fas fa-plus-circle" id="addNewImg" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
                                     <p id="addNew">
                                         Add New
                                     </p>
@@ -74,6 +70,7 @@
                                 <i class="fas fa-star starCent"></i>
                                 <i class="fas fa-star starLow"></i>
                             </div>
+                            <!--
                             <div class="col-2 movies-list-movie-container-movie-card movies-list-cols riImg">
                                 <img src="assets/rihanna-movie.jpg" alt="rihanna-movie" class="movie-card-image">
                                 <i class="fas fa-star starUp"></i>
@@ -92,8 +89,11 @@
                                 <i class="fas fa-star starCent"></i>
                                 <i class="fas fa-star starLow"></i>
                             </div>
-                        </div>
+                        -->
+                        </div> 
+                        <!--
                         <div class="row movies-list-rows justify-content">
+                            
                             <div class="col-2 movies-list-movie-container-movie-card movies-list-cols oxyImg">
                                 <img src="assets/oxygen-movie.jpeg" alt="oxygen-movie" class="movie-card-image">
                                 <i class="fas fa-star starUp"></i>
@@ -156,21 +156,11 @@
                                 <i class="fas fa-star starCent"></i>
                                 <i class="fas fa-star starLow"></i>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div id="movies-form">
-                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-
-                    <div class="card-body">
-                        <button type="button" class="btn btn-secondary text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            
-                            <i class="fas fa-plus-circle fa-4x"></i>
-                            <h3>Add New</h3>
-                          </button>
-                    </div>
-                </div>
                 <!-- Modal -->
                 <div class="modal fade text-light" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -205,6 +195,7 @@
             </div>
         </div>
     </div>
+<script src="js/main.js"></script>
 </body>
 
 </html>
