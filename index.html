@@ -161,7 +161,47 @@
                 </div>
             </div>
             <div id="movies-form">
+                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
 
+                    <div class="card-body">
+                        <button type="button" class="btn btn-secondary text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            
+                            <i class="fas fa-plus-circle fa-4x"></i>
+                            <h3>Add New</h3>
+                          </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade text-light" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-secondary">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Add New Movie</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">  </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class=" mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Rating</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Image</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>        
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-secondary">Add</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
