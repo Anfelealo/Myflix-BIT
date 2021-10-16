@@ -1,4 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
+.mh-row{
+    
+    height: 40px;
+   
+}
 .mh-logo-container > img{
     width: 90px;
 }
@@ -36,5 +45,5 @@
 .mh-search-bar{
     border-radius: 100px 0px 0px 100px !important;
     height: 35px;
+    color:white !important;
 }
-
