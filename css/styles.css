@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    height: 100vh;
+    position: relative;
+}
+
+#movies-header{
+    position: relative;
+    height: 65px;
+    background: #3A3A3A;
+}
+
+
+
+
+
