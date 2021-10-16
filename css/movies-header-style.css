@@ -1,0 +1,40 @@
+
+.mh-logo-container > img{
+    width: 90px;
+}
+.mh-searchbutton-container > img{
+    width: 20px;
+    
+}   
+.mh-searchbutton-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(148, 147, 147);
+    border-radius: 0px 100px 100px 0px;
+    width: 40px;
+    height: 35px;
+
+}
+.mh-account-col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.mh-account-col > img{
+    width: 45px;
+    height: 40px;
+    border-radius: 100%;
+    
+}
+.mh-account-col > a{
+    color: white;
+    text-decoration:none;
+}
+.mh-search-bar{
+    border-radius: 100px 0px 0px 100px !important;
+    height: 35px;
+}
+
