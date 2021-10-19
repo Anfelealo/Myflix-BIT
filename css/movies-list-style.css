@@ -1,5 +1,12 @@
+.ml-list-container{
+    display: flex;
+}
+
+
 .ml-row-styling{
     display: flex;  
+    flex-direction: row;
+    justify-content: left;
 }
 
 .ml-col-styling{
