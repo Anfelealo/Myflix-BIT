@@ -1,7 +1,7 @@
 var movies = [
     {
         rating: 2,
-        name: "El Titanic",
+        name: "ElTitanic",
         image: "https://m.media-amazon.com/images/I/51mTtUGvUCL.jpg"
     },
     {
@@ -13,11 +13,11 @@ var movies = [
 
 function addMovies(){
     for(let i = 0;  i < movies.length; i++){
-        let cardList = document.getElementById("cards-list");
-        let card = '<div class="col-2 movies-list-movie-container-movie-card movies-list-cols oxyImg">'+
-            '<img src="'+movies[i].image+'" alt="oxygen-movie" class="movie-card-image">'+
-            '<i class="fas fa-star starUp"></i>'+'<i class="fas fa-star starCent"></i>'+
-            '<i class="fas fa-star starLow"></i></div>';
+        let cardList = document.getElementById("ml-row-styling");
+        let card = '<div class="col-sm ml-col-styling">'+'<div class="card bg-transparent ml-card">'+
+            '<img src="'+movies[i].image+'" alt="'+movies[i].name+'" class="movie-card-image">'+
+            '<i class="fas fa-star starUp'+movies[i].name+'"></i>'+'<i class="fas fa-star starCent'
+            +movies[i].name+'"></i>'+'<i class="fas fa-star starLow'+movies[i].name+'"></i></div></div></div>';
         cardList.innerHTML += card
     }
 }
