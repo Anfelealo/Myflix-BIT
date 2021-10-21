@@ -117,7 +117,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">  </button>
                         </div>
                         <div class="modal-body">
-                            <form id="form-data"> 
+                            <form id="form-data" onsubmit="return false;"> 
                                 <div class=" mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Rating</label>
                                     <input type="number" class="form-control" id="mf-rating">
@@ -133,7 +133,8 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
                                         Cancel</button>
-                                    <button onclick="addMovies()" type="submit" class="btn btn-secondary">
+                                    <button onclick="addMovies()" type="submit" class="btn btn-secondary"  
+                                    onclick="self.close();">
                                         Add</button>
                                 </div>
                             </form>
